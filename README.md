@@ -1,51 +1,66 @@
 # Hi, I'm Aristha 👋
 
-Technical Lead focused on **software architecture, AI-assisted engineering, cloud-native systems, and modern full-stack development**.
+**Technical Lead · Software Architecture · AI-assisted Engineering**
 
-## Current Focus
+I build and lead enterprise software with a focus on **architecture, modernization, cloud-native delivery, and engineering controls for AI-assisted development**.
 
-* AI-assisted software delivery and engineering governance
-* Software architecture and technical leadership
-* Legacy modernization
-* Cloud-native application development
-* Developer productivity and engineering automation
+## Current Engineering Focus
 
-## Selected Work
+- AI-assisted software delivery with explicit human approval boundaries
+- Software architecture and technical leadership
+- Legacy modernization and incremental migration
+- Cloud-native application delivery
+- Developer productivity, review systems, and engineering automation
 
-### Architecture & Technical Leadership
+## Featured Work
 
-➡️ [Engineering Portfolio](https://github.com/aristha/PORTFOLIO)
+### Engineering Portfolio
 
-Architecture decision records, engineering case studies, system design, and technical leadership practices.
+🌐 [Live Portfolio](https://aristha.github.io/PORTFOLIO/)  
+📚 [Architecture Case Studies & ADRs](https://github.com/aristha/PORTFOLIO)
+
+Selected topics include:
+
+- AI-assisted engineering governance
+- Legacy modernization
+- Cloud migration and architecture decisions
+- Database performance engineering
+- Enterprise integration
+- Technical leadership and delivery decision-making
 
 ## Engineering Direction
 
 ```text
 Requirement
     ↓
-AI / Developer
+Bounded Work
     ↓
-Bounded Implementation
+AI / Developer Implementation
     ↓
-Deterministic Verification
+Deterministic Evidence
     ↓
-Independent Review
+Independent Engineering Review
     ↓
 Human Approval
 ```
 
-I am particularly interested in building engineering systems where **AI accelerates delivery while humans retain technical authority and accountability**.
+My current interest is building engineering systems where **AI accelerates implementation while humans retain technical authority and accountability**.
 
-## Technologies
+## Technology Stack
 
-**Backend**
+**Backend**  
 Java · Spring Boot · Node.js · NestJS · PostgreSQL
 
-**Frontend**
-React · TypeScript · Next.js
+**Frontend**  
+React · TypeScript · Next.js · Angular
 
-**Cloud & Platform**
+**Cloud & Platform**  
 AWS · Docker · Kubernetes · GitHub Actions
 
-**AI Engineering**
+**AI Engineering**  
 LLM integration · Prompt Engineering · AI-assisted SDLC · Engineering Governance
+
+## Explore
+
+→ [View the live engineering portfolio](https://aristha.github.io/PORTFOLIO/)  
+→ [Browse the case studies](https://aristha.github.io/PORTFOLIO/case-studies/)
