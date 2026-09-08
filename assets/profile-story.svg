@@ -1,0 +1,247 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">Built by Transition — Aristha engineering journey</title>
+  <desc id="desc">Six-scene animated story showing a path from mechatronics and legacy modernization to technical leadership and AI-assisted engineering.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#07111f"/>
+      <stop offset="55%" stop-color="#0b1324"/>
+      <stop offset="100%" stop-color="#11162a"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7de3ff"/>
+      <stop offset="100%" stop-color="#9d8cff"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0%" stop-color="#7de3ff" stop-opacity=".28"/>
+      <stop offset="100%" stop-color="#7de3ff" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse">
+      <path d="M42 0H0V42" fill="none" stroke="#ffffff" stroke-opacity=".035"/>
+    </pattern>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    text{font-family:Inter,Segoe UI,Arial,sans-serif}
+    .eyebrow{font-size:15px;font-weight:700;letter-spacing:2px;fill:#7de3ff}
+    .title{font-size:40px;font-weight:800;letter-spacing:-1.5px;fill:#f7fbff}
+    .body{font-size:19px;font-weight:500;fill:#b9c7da}
+    .small{font-size:14px;font-weight:600;fill:#93a4bb}
+    .mono{font-family:SFMono-Regular,Consolas,Liberation Mono,monospace}
+    .label{font-size:13px;font-weight:800;fill:#dfe8f6;letter-spacing:.8px}
+    .scene{opacity:0}
+    .s1{animation:scene1 24s ease-in-out infinite}
+    .s2{animation:scene2 24s ease-in-out infinite}
+    .s3{animation:scene3 24s ease-in-out infinite}
+    .s4{animation:scene4 24s ease-in-out infinite}
+    .s5{animation:scene5 24s ease-in-out infinite}
+    .s6{animation:scene6 24s ease-in-out infinite}
+    .pulse{animation:pulse 2s ease-in-out infinite}
+    .flow{stroke-dasharray:8 10;animation:flow 1.8s linear infinite}
+    .d1{animation:dot1 24s infinite}.d2{animation:dot2 24s infinite}.d3{animation:dot3 24s infinite}
+    .d4{animation:dot4 24s infinite}.d5{animation:dot5 24s infinite}.d6{animation:dot6 24s infinite}
+    @keyframes scene1{0%,14%{opacity:1}16.5%,100%{opacity:0}}
+    @keyframes scene2{0%,15%{opacity:0}18%,31%{opacity:1}33.5%,100%{opacity:0}}
+    @keyframes scene3{0%,31.5%{opacity:0}34.5%,47.5%{opacity:1}50%,100%{opacity:0}}
+    @keyframes scene4{0%,48%{opacity:0}51%,64%{opacity:1}66.5%,100%{opacity:0}}
+    @keyframes scene5{0%,64.5%{opacity:0}67.5%,80.5%{opacity:1}83%,100%{opacity:0}}
+    @keyframes scene6{0%,81%{opacity:0}84%,97.5%{opacity:1}100%{opacity:0}}
+    @keyframes pulse{50%{opacity:.45;transform:scale(1.08)}}
+    @keyframes flow{to{stroke-dashoffset:-36}}
+    @keyframes dot1{0%,14%{fill:#7de3ff}16%,100%{fill:#33445f}}
+    @keyframes dot2{0%,16%{fill:#33445f}18%,31%{fill:#7de3ff}33%,100%{fill:#33445f}}
+    @keyframes dot3{0%,33%{fill:#33445f}35%,47%{fill:#7de3ff}50%,100%{fill:#33445f}}
+    @keyframes dot4{0%,50%{fill:#33445f}52%,64%{fill:#7de3ff}66%,100%{fill:#33445f}}
+    @keyframes dot5{0%,66%{fill:#33445f}68%,80%{fill:#7de3ff}83%,100%{fill:#33445f}}
+    @keyframes dot6{0%,83%{fill:#33445f}85%,98%{fill:#7de3ff}100%{fill:#33445f}}
+    @media (prefers-reduced-motion: reduce){
+      .scene,.pulse,.flow,.d1,.d2,.d3,.d4,.d5,.d6{animation:none}
+      .scene{opacity:0}.s6{opacity:1}
+      .d1,.d2,.d3,.d4,.d5{fill:#33445f}.d6{fill:#7de3ff}
+    }
+  </style>
+
+  <rect width="960" height="540" rx="28" fill="url(#bg)"/>
+  <rect width="960" height="540" rx="28" fill="url(#grid)"/>
+  <circle cx="770" cy="90" r="210" fill="url(#glow)" opacity=".55"/>
+
+  <g>
+    <circle cx="42" cy="38" r="5" fill="#7de3ff" filter="url(#softGlow)"/>
+    <text x="58" y="43" class="label">BUILT BY TRANSITION</text>
+    <text x="760" y="43" class="small">ENGINEERING STORY</text>
+  </g>
+
+  <g transform="translate(396 505)">
+    <circle class="d1" cx="0" cy="0" r="5" fill="#33445f"/>
+    <circle class="d2" cx="28" cy="0" r="5" fill="#33445f"/>
+    <circle class="d3" cx="56" cy="0" r="5" fill="#33445f"/>
+    <circle class="d4" cx="84" cy="0" r="5" fill="#33445f"/>
+    <circle class="d5" cx="112" cy="0" r="5" fill="#33445f"/>
+    <circle class="d6" cx="140" cy="0" r="5" fill="#33445f"/>
+  </g>
+
+  <!-- Act I -->
+  <g class="scene s1">
+    <text x="64" y="105" class="eyebrow">ACT I · ORIGIN</text>
+    <text x="64" y="158" class="title">I didn't start in software.</text>
+    <text x="64" y="194" class="body">Mechatronics taught me to make unfamiliar pieces work together.</text>
+
+    <g transform="translate(80 285)">
+      <rect x="0" y="-28" width="128" height="58" rx="15" fill="#101c31" stroke="#3c5578"/>
+      <text x="64" y="7" text-anchor="middle" class="label">SENSOR</text>
+      <path d="M128 1H220" stroke="url(#accent)" stroke-width="3" class="flow"/>
+      <rect x="220" y="-28" width="128" height="58" rx="15" fill="#101c31" stroke="#3c5578"/>
+      <text x="284" y="7" text-anchor="middle" class="label">WEIGH</text>
+      <path d="M348 1H440" stroke="url(#accent)" stroke-width="3" class="flow"/>
+      <rect x="440" y="-28" width="128" height="58" rx="15" fill="#101c31" stroke="#3c5578"/>
+      <text x="504" y="7" text-anchor="middle" class="label">PACKAGE</text>
+    </g>
+
+    <g transform="translate(680 250)">
+      <rect width="190" height="120" rx="22" fill="#101a2d" stroke="#5c6f94"/>
+      <text x="24" y="38" class="small mono">C# monitor</text>
+      <text x="24" y="67" class="small mono">Android app</text>
+      <text x="24" y="96" class="small mono">automation</text>
+    </g>
+  </g>
+
+  <!-- Act II -->
+  <g class="scene s2">
+    <text x="64" y="105" class="eyebrow">ACT II · TRANSITIONS</text>
+    <text x="64" y="158" class="title">I kept entering systems I didn't know.</text>
+    <text x="64" y="194" class="body">The stack changed. Learning fast became the constant.</text>
+
+    <g transform="translate(85 280)">
+      <rect width="180" height="94" rx="20" fill="#121b2f" stroke="#415675"/>
+      <text x="90" y="40" text-anchor="middle" class="label">COBOL</text>
+      <text x="90" y="65" text-anchor="middle" class="small">late 2017</text>
+      <path d="M195 47H290" stroke="url(#accent)" stroke-width="4" class="flow"/>
+      <rect x="305" width="220" height="94" rx="20" fill="#121b2f" stroke="#536d94"/>
+      <text x="415" y="38" text-anchor="middle" class="label">JAVA 6 / 8</text>
+      <text x="415" y="65" text-anchor="middle" class="small">AngularJS · SQL</text>
+      <path d="M540 47H635" stroke="url(#accent)" stroke-width="4" class="flow"/>
+      <rect x="650" width="180" height="94" rx="20" fill="#121b2f" stroke="#7668aa"/>
+      <text x="740" y="38" text-anchor="middle" class="label">MIGRATION</text>
+      <text x="740" y="65" text-anchor="middle" class="small">became normal</text>
+    </g>
+
+    <text x="85" y="423" class="small mono">Java 6 → 8 · Flex → Angular · Struts → Spring</text>
+  </g>
+
+  <!-- Act III -->
+  <g class="scene s3">
+    <text x="64" y="105" class="eyebrow">ACT III · SYSTEMS THINKING</text>
+    <text x="64" y="158" class="title">The problem became bigger than code.</text>
+    <text x="64" y="194" class="body">Performance, data, deployment and architecture became one system.</text>
+
+    <g transform="translate(70 295)">
+      <g>
+        <circle cx="55" cy="0" r="45" fill="#122037" stroke="#426182"/>
+        <text x="55" y="5" text-anchor="middle" class="label">CODE</text>
+      </g>
+      <path d="M105 0H155" stroke="url(#accent)" stroke-width="3"/>
+      <g transform="translate(205)">
+        <circle cx="0" cy="0" r="45" fill="#122037" stroke="#426182"/>
+        <text x="0" y="5" text-anchor="middle" class="label">DATA</text>
+      </g>
+      <path d="M255 0H305" stroke="url(#accent)" stroke-width="3"/>
+      <g transform="translate(355)">
+        <circle cx="0" cy="0" r="45" fill="#122037" stroke="#426182"/>
+        <text x="0" y="5" text-anchor="middle" class="label">PERF</text>
+      </g>
+      <path d="M405 0H455" stroke="url(#accent)" stroke-width="3"/>
+      <g transform="translate(505)">
+        <circle cx="0" cy="0" r="45" fill="#122037" stroke="#426182"/>
+        <text x="0" y="5" text-anchor="middle" class="label">DEPLOY</text>
+      </g>
+      <path d="M555 0H605" stroke="url(#accent)" stroke-width="3"/>
+      <g transform="translate(655)">
+        <circle cx="0" cy="0" r="45" fill="#151d36" stroke="#7668aa"/>
+        <text x="0" y="5" text-anchor="middle" class="label">SYSTEM</text>
+      </g>
+    </g>
+
+    <text x="70" y="423" class="small mono">Shell · Bash · JMeter · database · API · automation</text>
+  </g>
+
+  <!-- Act IV -->
+  <g class="scene s4">
+    <text x="64" y="105" class="eyebrow">ACT IV · LEADERSHIP</text>
+    <text x="64" y="158" class="title">Responsibility became bigger than myself.</text>
+    <text x="64" y="194" class="body">From features → systems → teams → solutions.</text>
+
+    <g transform="translate(250 325)">
+      <circle r="115" fill="none" stroke="#263d5e" stroke-width="2"/>
+      <circle r="72" fill="none" stroke="#3a5275" stroke-width="2"/>
+      <circle r="38" fill="#14233b" stroke="#7de3ff" stroke-width="2" class="pulse"/>
+      <text x="0" y="5" text-anchor="middle" class="label">TL</text>
+      <circle cx="-115" cy="0" r="24" fill="#17243b" stroke="#516a8f"/>
+      <circle cx="115" cy="0" r="24" fill="#17243b" stroke="#516a8f"/>
+      <circle cx="0" cy="-115" r="24" fill="#17243b" stroke="#516a8f"/>
+      <circle cx="0" cy="115" r="24" fill="#17243b" stroke="#516a8f"/>
+    </g>
+
+    <g transform="translate(480 250)">
+      <text x="0" y="0" class="label">LEADERSHIP SCALE</text>
+      <text x="0" y="42" class="body">Mendix · startup · securities</text>
+      <text x="0" y="76" class="body">Korea migration · Chrome Extension</text>
+      <text x="0" y="110" class="body">Security platform · ~40 people</text>
+      <text x="0" y="144" class="body">Bidding · estimation · review · risk</text>
+    </g>
+  </g>
+
+  <!-- Act V -->
+  <g class="scene s5">
+    <text x="64" y="105" class="eyebrow">ACT V · THE AI SHIFT</text>
+    <text x="64" y="158" class="title">Search helped me learn. AI changed the interface.</text>
+
+    <g transform="translate(72 250)">
+      <text x="0" y="0" class="label">BEFORE</text>
+      <rect x="0" y="25" width="310" height="150" rx="22" fill="#111b2e" stroke="#405773"/>
+      <text x="24" y="65" class="small mono">Google Search</text>
+      <text x="24" y="95" class="small mono">Docs · articles · examples</text>
+      <text x="24" y="125" class="small mono">Prototype · synthesize</text>
+      <text x="24" y="155" class="small mono">Understand → build</text>
+    </g>
+
+    <path d="M418 325H535" stroke="url(#accent)" stroke-width="4" class="flow"/>
+
+    <g transform="translate(570 250)">
+      <text x="0" y="0" class="label">NOW</text>
+      <rect x="0" y="25" width="320" height="150" rx="22" fill="#141b31" stroke="#7568aa"/>
+      <text x="24" y="65" class="small mono">Research · discuss · challenge</text>
+      <text x="24" y="95" class="small mono">Build · test · review</text>
+      <text x="24" y="125" class="small mono">Evidence</text>
+      <text x="24" y="155" class="small mono">Human decision</text>
+    </g>
+
+    <text x="72" y="457" class="body">AI helps turn information into understanding, work, and review.</text>
+  </g>
+
+  <!-- Act VI -->
+  <g class="scene s6">
+    <text x="64" y="105" class="eyebrow">ACT VI · NOW / NEXT</text>
+    <text x="64" y="158" class="title">The tools changed. The pattern didn't.</text>
+    <text x="64" y="194" class="body">AI expands capacity. Technical responsibility remains human.</text>
+
+    <g transform="translate(480 330)">
+      <circle r="132" fill="none" stroke="#263b5d" stroke-width="2"/>
+      <circle r="82" fill="#111c31" stroke="#536d94" stroke-width="2"/>
+      <circle r="42" fill="#15273f" stroke="#7de3ff" stroke-width="2" class="pulse"/>
+      <text x="0" y="-5" text-anchor="middle" class="label">HUMAN</text>
+      <text x="0" y="16" text-anchor="middle" class="small">decision</text>
+
+      <g transform="translate(0 -132)"><rect x="-55" y="-18" width="110" height="36" rx="18" fill="#121e34" stroke="#405a7d"/><text x="0" y="5" text-anchor="middle" class="small">RESEARCH</text></g>
+      <g transform="translate(114 -66)"><rect x="-50" y="-18" width="100" height="36" rx="18" fill="#121e34" stroke="#405a7d"/><text x="0" y="5" text-anchor="middle" class="small">BUILD</text></g>
+      <g transform="translate(114 66)"><rect x="-50" y="-18" width="100" height="36" rx="18" fill="#121e34" stroke="#405a7d"/><text x="0" y="5" text-anchor="middle" class="small">TEST</text></g>
+      <g transform="translate(0 132)"><rect x="-55" y="-18" width="110" height="36" rx="18" fill="#121e34" stroke="#405a7d"/><text x="0" y="5" text-anchor="middle" class="small">REVIEW</text></g>
+      <g transform="translate(-114 66)"><rect x="-50" y="-18" width="100" height="36" rx="18" fill="#121e34" stroke="#405a7d"/><text x="0" y="5" text-anchor="middle" class="small">RISK</text></g>
+      <g transform="translate(-114 -66)"><rect x="-62" y="-18" width="124" height="36" rx="18" fill="#121e34" stroke="#405a7d"/><text x="0" y="5" text-anchor="middle" class="small">ARCHITECT</text></g>
+    </g>
+
+    <text x="64" y="454" class="body">Unknown → Research → Understand → Build → Lead → Improve</text>
+  </g>
+</svg>

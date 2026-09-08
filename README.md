@@ -1,14 +1,66 @@
 # Hi, I'm Aristha 👋
 
-Technical Lead with **8 years of software engineering experience**, focused on **software architecture, AI-assisted engineering, cloud-native systems, and modern full-stack development**.
+Technical Lead with **8+ years of software engineering experience** across **legacy modernization, architecture, performance engineering, technical leadership, and AI-assisted software delivery**.
 
-## Current Focus
+I did not start in computer science. I studied **Mechatronics** — and most of my career has followed the same pattern ever since.
 
-- AI-assisted software delivery and engineering governance
-- Software architecture and technical leadership
-- Legacy modernization and incremental migration
-- Cloud-native application delivery
-- Developer productivity and engineering automation
+<p align="center">
+  <img src="./assets/profile-story.svg" alt="Built by Transition — six-act animated engineering journey" width="100%" />
+</p>
+
+> **The tools changed. The scale changed. The pattern didn't.**
+
+## Built by Transition
+
+**01 · Origin — Mechatronics → Software**  
+My graduation project was an automatic rice weighing and packaging conveyor system combining sensors, C#, Android, and a C# monitoring application. Much of it was self-taught.
+
+**02 · Transition — COBOL → Java / Angular**  
+I started at the end of 2017 as a COBOL fresher, then moved into AngularJS, Java 6/8, and SQL. Over time, migration became normal: Java 6 → 8, Flex → Angular, and later Struts → Spring.
+
+**03 · Systems Thinking — Beyond Code**  
+Shell, Bash, deployment automation, JMeter, database optimization, API performance, large-data processing, and chart performance taught me to investigate systems end-to-end rather than isolated functions.
+
+**04 · Leadership — Responsibility Beyond Myself**  
+I moved from developer to leader and Technical Leader: internal systems, Mendix, a Japanese startup, a securities platform, Korean modernization, Chrome Extension work, and a Spring Boot + React security platform with roughly 40 people. Today my scope includes multiple teams, architecture, estimation, bidding, planning, review, and risk.
+
+**05 · AI Shift — Search → Collaboration**  
+For years, search was how I entered unfamiliar domains.
+
+~~~text
+Problem → Search → Docs → Compare → Prototype → Understand → Build
+~~~
+
+That habit has not disappeared. The interface changed.
+
+> **Search helped me find information.  
+> AI helps me turn information into understanding, work, and review.**
+
+My daily toolchain includes **Microsoft Copilot, GitHub Copilot, Claude, ChatGPT, and Codex** — used across research, architecture, implementation, testing, review, and repository-native execution.
+
+**06 · Now / Next — AI Execution, Human Decision**  
+
+~~~text
+Unknown
+  ↓
+AI-assisted Research
+  ↓
+Faster Understanding
+  ↓
+AI-assisted Execution
+  ↓
+Independent Review
+  ↓
+Evidence
+  ↓
+Human Decision
+~~~
+
+AI can expand engineering capacity, but **context, architecture, trade-offs, risk, validation, and final responsibility remain human**.
+
+The question I am exploring now:
+
+> **How should humans and AI build software together reliably?**
 
 ## Selected Work
 
@@ -17,40 +69,28 @@ Technical Lead with **8 years of software engineering experience**, focused on *
 ➡️ [View the live portfolio](https://aristha.github.io/PORTFOLIO/)  
 ➡️ [Browse the source repository](https://github.com/aristha/PORTFOLIO)
 
-Architecture case studies, engineering decision records, modernization approaches, performance engineering, and technical leadership practices.
+Architecture case studies, ADRs, modernization approaches, performance engineering, and technical leadership practices.
 
-## Engineering Direction
+### Full Engineering Journey
 
-```text
-Requirement
-    ↓
-AI / Developer
-    ↓
-Bounded Implementation
-    ↓
-Deterministic Verification
-    ↓
-Independent Review
-    ↓
-Human Approval
-```
+➡️ [Read the detailed story](./story/ENGINEERING_JOURNEY.md)
 
-I am particularly interested in engineering systems where **AI accelerates delivery while humans retain technical authority and accountability**.
+The story source lives in [story/journey.yml](./story/journey.yml), designed to drive future **animated SVG, GitHub Pages, and video storytelling**.
 
-## Technology Focus
+## Current Focus
 
-**Backend**  
-Java · Spring Boot · Node.js · NestJS · PostgreSQL
+**Architecture & Modernization**  
+Java · Spring Boot · legacy migration · performance · PostgreSQL
 
-**Frontend**  
-React · TypeScript · Next.js
+**Frontend & Product Engineering**  
+Angular · React · TypeScript · Next.js
 
-**Cloud & Platform**  
-AWS · Docker · Kubernetes · GitHub Actions
+**Cloud & Delivery**  
+AWS · Docker · Kubernetes · GitHub Actions · deployment automation
 
-**AI Engineering**  
-LLM integration · Prompt Engineering · AI-assisted SDLC · Engineering Governance
+**AI-assisted Engineering**  
+GitHub Copilot · Claude · ChatGPT · Codex · AI-assisted SDLC · engineering governance
 
-## What I Value
+---
 
-Clear architecture decisions · measurable engineering evidence · incremental modernization · maintainable delivery systems · accountable human review
+**From building software → designing systems → leading teams → expanding engineering capacity with AI.**
