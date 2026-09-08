@@ -1,181 +1,44 @@
 # Hi, I'm Aristha 👋
 
-Technical Lead with **8+ years of software engineering experience**, working across **legacy modernization, architecture, performance engineering, technical leadership, and AI-assisted software delivery**.
+Technical Lead with **8+ years of software engineering experience** across **legacy modernization, architecture, performance engineering, technical leadership, and AI-assisted software delivery**.
 
-I did not start in computer science.
+I did not start in computer science. I studied **Mechatronics** — and most of my career has followed the same pattern ever since.
 
-I studied **Mechatronics** — and most of my career has followed the same pattern ever since:
+<p align="center">
+  <img src="./assets/profile-story.svg" alt="Built by Transition — six-act animated engineering journey" width="100%" />
+</p>
 
-~~~text
-Unknown
-  ↓
-Research
-  ↓
-Understand
-  ↓
-Build
-  ↓
-Lead
-  ↓
-Improve
-~~~
+> **The tools changed. The scale changed. The pattern didn't.**
 
 ## Built by Transition
 
-### Act I — I didn't start in software
+**01 · Origin — Mechatronics → Software**  
+My graduation project was an automatic rice weighing and packaging conveyor system combining sensors, C#, Android, and a C# monitoring application. Much of it was self-taught.
 
-My graduation project was an **automatic rice weighing and packaging conveyor system**.
+**02 · Transition — COBOL → Java / Angular**  
+I started at the end of 2017 as a COBOL fresher, then moved into AngularJS, Java 6/8, and SQL. Over time, migration became normal: Java 6 → 8, Flex → Angular, and later Struts → Spring.
 
-I combined hardware, sensors, C#, Android, and a C# monitoring application — much of it self-taught.
+**03 · Systems Thinking — Beyond Code**  
+Shell, Bash, deployment automation, JMeter, database optimization, API performance, large-data processing, and chart performance taught me to investigate systems end-to-end rather than isolated functions.
 
-That was the first time I learned how to enter an unfamiliar system, understand its pieces, and make the whole thing work.
+**04 · Leadership — Responsibility Beyond Myself**  
+I moved from developer to leader and Technical Leader: internal systems, Mendix, a Japanese startup, a securities platform, Korean modernization, Chrome Extension work, and a Spring Boot + React security platform with roughly 40 people. Today my scope includes multiple teams, architecture, estimation, bidding, planning, review, and risk.
 
-### Act II — I kept entering systems I didn't know
-
-At the end of 2017, I started as a **COBOL fresher**, only beginning to learn SQL.
-
-Then the project direction changed:
-
-~~~text
-COBOL
-  ↓
-AngularJS + Java 6/8 + SQL
-~~~
-
-I adapted quickly, performed well, and continued into Java engineering.
-
-Over the following years, unfamiliar systems became normal:
+**05 · AI Shift — Search → Collaboration**  
+For years, search was how I entered unfamiliar domains.
 
 ~~~text
-Java 6 → Java 8
-Adobe Flex → Angular → Angular 13
-Struts → Spring
+Problem → Search → Docs → Compare → Prototype → Understand → Build
 ~~~
 
-Migration became my classroom.
+That habit has not disappeared. The interface changed.
 
-### Act III — The problem became bigger than code
+> **Search helped me find information.  
+> AI helps me turn information into understanding, work, and review.**
 
-My work expanded into:
+My daily toolchain includes **Microsoft Copilot, GitHub Copilot, Claude, ChatGPT, and Codex** — used across research, architecture, implementation, testing, review, and repository-native execution.
 
-- Shell / Bash
-- deployment automation
-- JMeter and performance testing
-- database and API optimization
-- large-data and chart performance
-- migration investigation and solution design
-
-I learned that the real problem is rarely isolated inside one function or one framework.
-
-~~~text
-Code
-  ↓
-Data
-  ↓
-Performance
-  ↓
-Deployment
-  ↓
-Architecture
-  ↓
-System
-~~~
-
-### Act IV — Responsibility became bigger than myself
-
-I moved from developer to leader, then Technical Leader.
-
-Along the way I:
-
-- led an internal contract-management system
-- moved outside Java into **Mendix** and earned the **Advanced Developer certification**
-- led a production product for a Japanese warehouse-rental startup
-- led Java/Angular work on a Japanese securities platform
-- investigated and implemented modernization for the Korean market
-- led a Chrome Extension project performing real-time actions on web pages
-- became Technical Leader for a **Spring Boot + React security platform** with roughly **40 people**
-- expanded into multiple teams and workstreams across architecture, estimation, bidding, planning, review, and risk
-
-One important lesson came from the startup project:
-
-> Good engineering is necessary, but it is not sufficient for product success.
-
-The role gradually changed from **building features** to **creating technical conditions for teams to succeed**.
-
-## Act V — Search helped me learn. AI changed the interface.
-
-For most of my career, when I met something unfamiliar, my first engineering tool was search.
-
-~~~text
-Problem
-  ↓
-Google Search
-  ↓
-Docs / examples / articles
-  ↓
-Compare
-  ↓
-Prototype
-  ↓
-Understand
-  ↓
-Build
-~~~
-
-That habit has not disappeared.
-
-What changed is the interface.
-
-**Search helped me find information.  
-AI helps me turn information into understanding, work, and review.**
-
-Today AI helps me:
-
-- understand unfamiliar systems faster
-- research alternatives
-- explore architecture and solutions
-- implement and refactor
-- generate tests
-- review code and reasoning
-- challenge assumptions
-- summarize evidence
-
-My current toolchain includes **Microsoft Copilot, GitHub Copilot, Claude, ChatGPT, and Codex**.
-
-I do not think of them as one “best AI”.
-
-I increasingly think in engineering roles:
-
-~~~text
-Research
-Architecture
-Implementation
-Testing
-Review
-Risk
-~~~
-
-Different tools can help at different stages.
-
-## Act VI — The tools changed. The pattern didn't.
-
-Before:
-
-~~~text
-Unknown
-  ↓
-Search
-  ↓
-Understand
-  ↓
-Build
-  ↓
-Review
-  ↓
-Lead
-~~~
-
-Now:
+**06 · Now / Next — AI Execution, Human Decision**  
 
 ~~~text
 Unknown
@@ -191,15 +54,11 @@ Independent Review
 Evidence
   ↓
 Human Decision
-  ↓
-Lead at a larger scale
 ~~~
 
-AI can expand engineering capacity.
+AI can expand engineering capacity, but **context, architecture, trade-offs, risk, validation, and final responsibility remain human**.
 
-But **context, architecture, trade-offs, risk, validation, and final responsibility remain human**.
-
-That is the engineering direction I am exploring today:
+The question I am exploring now:
 
 > **How should humans and AI build software together reliably?**
 
@@ -216,7 +75,7 @@ Architecture case studies, ADRs, modernization approaches, performance engineeri
 
 ➡️ [Read the detailed story](./story/ENGINEERING_JOURNEY.md)
 
-The journey is also stored as structured data in [story/journey.yml](./story/journey.yml) so it can later drive **animated SVG, GitHub Pages, and video storytelling**.
+The story source lives in [story/journey.yml](./story/journey.yml), designed to drive future **animated SVG, GitHub Pages, and video storytelling**.
 
 ## Current Focus
 
