@@ -1,0 +1,84 @@
+name: Profile Story Pages
+
+on:
+  pull_request:
+    paths:
+      - "site/**"
+      - "story/journey.yml"
+      - "scripts/generate_story_data.rb"
+      - ".github/workflows/profile-story-pages.yml"
+  push:
+    branches:
+      - main
+    paths:
+      - "site/**"
+      - "story/journey.yml"
+      - "scripts/generate_story_data.rb"
+      - ".github/workflows/profile-story-pages.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "profile-story-pages"
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.3"
+
+      - name: Generate story data
+        run: ruby scripts/generate_story_data.rb story/journey.yml site/story.json
+
+      - name: Validate generated story
+        run: |
+          ruby -rjson -e '
+            data = JSON.parse(File.read("site/story.json"))
+            acts = data.fetch("acts")
+            abort "Expected 6 acts" unless acts.length == 6
+            abort "Missing story title" if data.dig("story", "title").to_s.empty?
+            abort "Missing now-next act" unless acts.any? { |act| act["id"] == "now-next" }
+            puts "Validated #{acts.length} story acts"
+          '
+
+  deploy:
+    if: github.event_name != 'pull_request'
+    needs: validate
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: \${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.3"
+
+      - name: Generate story data
+        run: ruby scripts/generate_story_data.rb story/journey.yml site/story.json
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./site
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

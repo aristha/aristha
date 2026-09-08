@@ -71,11 +71,12 @@ The question I am exploring now:
 
 Architecture case studies, ADRs, modernization approaches, performance engineering, and technical leadership practices.
 
-### Full Engineering Journey
+### Interactive Engineering Story
 
-➡️ [Read the detailed story](./story/ENGINEERING_JOURNEY.md)
+➡️ [Explore the interactive story](https://aristha.github.io/aristha/)  
+➡️ [Read the detailed journey](./story/ENGINEERING_JOURNEY.md)
 
-The story source lives in [story/journey.yml](./story/journey.yml), designed to drive future **animated SVG, GitHub Pages, and video storytelling**.
+The interactive experience is generated from [story/journey.yml](./story/journey.yml), keeping the README, full journey, and future video storytelling aligned to one narrative source.
 
 ## Current Focus
 

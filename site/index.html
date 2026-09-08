@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#07111f" />
+  <meta name="description" content="Built by Transition — an interactive engineering story by Aristha." />
+  <title>Built by Transition — Aristha</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <div class="progress" aria-hidden="true"><span id="progressBar"></span></div>
+
+  <header class="hero">
+    <div class="hero__grid"></div>
+    <div class="hero__glow hero__glow--one"></div>
+    <div class="hero__glow hero__glow--two"></div>
+
+    <div class="hero__content">
+      <p class="eyebrow">ARISTHA · ENGINEERING STORY</p>
+      <h1>Built by <span>Transition.</span></h1>
+      <p class="hero__lead">
+        I did not start in computer science. I kept entering systems I did not know,
+        understanding them, building them, and eventually helping teams do the same.
+      </p>
+
+      <div class="pattern" aria-label="Recurring engineering pattern">
+        <span>Unknown</span><i>→</i><span>Research</span><i>→</i><span>Understand</span>
+        <i>→</i><span>Build</span><i>→</i><span>Lead</span><i>→</i><span>Improve</span>
+      </div>
+
+      <a class="scroll-cue" href="#story">
+        <span>Explore the story</span>
+        <span aria-hidden="true">↓</span>
+      </a>
+    </div>
+  </header>
+
+  <main id="story" class="story">
+    <aside class="story-nav" aria-label="Story navigation">
+      <div class="story-nav__line"></div>
+      <div id="storyNav"></div>
+    </aside>
+
+    <div id="acts" class="acts">
+      <section class="loading-card">
+        <p class="eyebrow">LOADING STORY</p>
+        <h2>Turning the journey into six acts…</h2>
+      </section>
+    </div>
+  </main>
+
+  <section class="closing">
+    <div class="closing__inner">
+      <p class="eyebrow">NOW / NEXT</p>
+      <h2>The tools changed.<br />The scale changed.<br /><span>The pattern didn't.</span></h2>
+      <p>
+        AI expands engineering capacity. Context, architecture, trade-offs, risk,
+        validation, and final responsibility remain human.
+      </p>
+      <blockquote id="closingQuestion">How should humans and AI build software together reliably?</blockquote>
+
+      <div class="closing__links">
+        <a href="https://github.com/aristha" rel="noreferrer">GitHub Profile</a>
+        <a href="https://aristha.github.io/PORTFOLIO/" rel="noreferrer">Engineering Portfolio</a>
+        <a href="https://github.com/aristha/aristha/blob/main/story/ENGINEERING_JOURNEY.md" rel="noreferrer">Full Journey</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <span>Built from <code>story/journey.yml</code></span>
+    <span>Human decisions · AI-assisted execution</span>
+  </footer>
+
+  <noscript>
+    <div class="noscript">This interactive story needs JavaScript enabled.</div>
+  </noscript>
+
+  <script src="./app.js" defer></script>
+</body>
+</html>
