@@ -1,86 +1,79 @@
-version: 1
+version: 2
 
-profile:
-  theme: "Built by Transition"
-  current_role: "Technical Leader"
-  direction: "AI-assisted Engineering Leadership"
+story:
+  title: "Built by Transition"
+  thesis: "The tools changed. The scale changed. The pattern didn't."
+  narrative_mode: "transformation"
+  timeline_role: "supporting"
+  ai_role: "turning_point"
   signature_pattern: [Unknown, Research, Understand, Build, Lead, Improve]
 
-chapters:
-  - id: mechatronics
-    period: "University"
-    title: "Mechatronics → Software"
-    technologies: [C#, Android, sensors, automation]
-    story: "Built an automatic rice weighing and packaging conveyor system with C# monitoring and Android integration."
+acts:
+  - id: origin
+    order: 1
+    title: "I didn't start in software"
+    purpose: "Establish the origin of the recurring learning pattern."
+    highlights:
+      - "Studied Mechatronics"
+      - "Built an automatic rice weighing and packaging conveyor system"
+      - "Combined sensors, C#, Android, and a C# monitoring application"
+      - "Much of the solution was self-taught"
+    message: "When the system is unfamiliar, understand the pieces and make the whole thing work."
 
-  - id: cobol-to-java
-    period: "Late 2017"
-    title: "COBOL Fresher → Java Engineer"
-    technologies: [COBOL, SQL, AngularJS, Java 6, Java 8]
-    story: "Started with COBOL training, then moved into AngularJS and Java enterprise development."
+  - id: transitions
+    order: 2
+    title: "I kept entering systems I didn't know"
+    purpose: "Show adaptability without turning the story into a CV timeline."
+    milestones:
+      - period: "Late 2017"
+        transition: "COBOL fresher → AngularJS + Java 6/8 + SQL"
+      - transition: "Java 6 → Java 8"
+      - transition: "Adobe Flex → Angular → Angular 13"
+      - transition: "Struts → Spring"
+    message: "Migration became the classroom for understanding unfamiliar systems."
 
-  - id: migration-classroom
-    title: "Migration Became My Classroom"
-    technologies: [Java 6, Java 8, Adobe Flex, Angular, Angular 13]
-    story: "Worked across legacy modernization and migration projects."
+  - id: systems-thinking
+    order: 3
+    title: "The problem became bigger than code"
+    purpose: "Show the shift from implementation to systems thinking."
+    capabilities:
+      - Shell
+      - Bash
+      - Deployment automation
+      - JMeter
+      - Performance testing
+      - Database optimization
+      - API optimization
+      - Large-data processing
+      - Chart-data optimization
+    message: "The real problem is often distributed across code, data, performance, deployment, and architecture."
 
-  - id: engineering-tooling
-    title: "Engineering Beyond Application Code"
-    technologies: [Shell, Bash, JMeter, deployment automation]
-    story: "Worked on performance testing, scripts, batch deployment, and technical deployment automation."
+  - id: leadership
+    order: 4
+    title: "Responsibility became bigger than myself"
+    purpose: "Show the transition from engineer to technical leader."
+    milestones:
+      - "Led an internal contract-management system"
+      - "Moved into Mendix and earned Advanced Developer certification"
+      - "Led a warehouse-rental product for a Japanese startup"
+      - "Led work on a Japanese securities platform"
+      - "Investigated modernization for the Korean market"
+      - "Led a Chrome Extension real-time web automation project"
+      - "Technical Leader for a Spring Boot + React security platform with ~40 people"
+      - "Expanded into multiple teams, bidding, estimation, planning, technical review, and risk"
+    lesson: "Good engineering is necessary, but it is not sufficient for product success."
+    message: "The role changed from building features to creating technical conditions for teams to succeed."
 
-  - id: first-leadership
-    title: "First Leadership Responsibility"
-    story: "Led an internal contract-management system."
-
-  - id: mendix
-    title: "Java → Mendix"
-    technologies: [Mendix]
-    credentials: ["Mendix Advanced Developer"]
-
-  - id: japan-startup
-    title: "Building with a Japanese Startup"
-    market: "Japan"
-    story: "Led a warehouse-rental management product and worked directly with the customer and Product Owner."
-    responsibilities: [solution design, estimation, requirement clarification, trade-off analysis]
-    lesson: "Good engineering alone does not guarantee product success."
-
-  - id: securities
-    title: "Performance in a Securities Platform"
-    market: "Japan"
-    technologies: [Java, Angular, SQL]
-    focus: [API performance, database optimization, data processing, chart-data optimization]
-
-  - id: korea-modernization
-    title: "New Market, New Migration"
-    market: "Korea"
-    technologies: [Struts, Spring]
-    story: "Investigated and implemented a Struts-to-Spring modernization path."
-
-  - id: chrome-extension
-    title: "When the Browser Became the Platform"
-    technologies: [JavaScript, Chrome Extension, DOM, realtime events]
-
-  - id: security-platform
-    title: "Technical Leader at Scale"
-    technologies: [Spring Boot, React]
-    team_size: "~40"
-
-  - id: multi-team
-    title: "From One Team to Multiple Workstreams"
-    responsibilities: [Technical investigation, Architecture, Solution design, Estimation, Bidding, Planning, Technical review, Risk analysis, Team support]
-
-  - id: google-search
-    title: "Google Search as an Engineering Tool"
-    flow: [Problem, Search, Read, Compare, Prototype, Understand, Implement]
-
-  - id: ai-collaborators
-    title: "Search → AI Collaborators"
-    benefits: ["Understand faster", "Research alternatives", "Explore solutions", "Implement work", "Review thinking", "Review code", "Generate tests", "Challenge assumptions"]
-
-  - id: daily-ai-toolchain
-    title: "Daily AI Toolchain"
-    tools:
+  - id: ai-shift
+    order: 5
+    title: "Search helped me learn. AI changed the interface."
+    purpose: "Use Google/Search → AI as the major turning point, not the full career story."
+    before:
+      flow: [Problem, Search, Docs, Examples, Compare, Prototype, Understand, Build]
+    now:
+      flow: [Problem, AI-assisted Research, Explore, Challenge, Understand faster, Execute, Review, Evidence, Human decision]
+    key_line: "Search helped me find information. AI helps me turn information into understanding, work, and review."
+    daily_tools:
       - name: "Microsoft Copilot"
         roles: [productivity, synthesis, business-context work]
       - name: "GitHub Copilot"
@@ -92,10 +85,30 @@ chapters:
       - name: "Codex"
         roles: [repo inspection, planning, implementation, testing, review, GitHub workflow]
 
-  - id: human-ai
-    title: "AI Execution, Human Decision"
+  - id: now-next
+    order: 6
+    title: "The tools changed. The pattern didn't."
+    purpose: "Close with a durable engineering identity rather than an AI buzzword title."
     ai_roles: [Research, Architecture, Coding, Testing, Review, Migration, Risk]
     human_roles: [Context, Intent, Constraints, Architecture, Trade-offs, Risk, Validation, Decision]
+    before_flow: [Unknown, Research, Understand, Build, Review, Lead]
+    current_flow: [Unknown, AI-assisted Research, Faster Understanding, AI-assisted Execution, Independent Review, Evidence, Human Decision, Lead at a larger scale]
+    question: "How should humans and AI build software together reliably?"
+
+rendering:
+  github_readme:
+    act_count: 6
+    target_read_time_seconds: 60
+    style: "concise narrative"
+  animated_profile:
+    recommended_scene_count: 6
+    source: "acts"
+  full_story:
+    source_file: "story/ENGINEERING_JOURNEY.md"
+  future_outputs:
+    - "animated SVG"
+    - "GitHub Pages"
+    - "video story"
 
 closing:
-  line: "From building software → designing systems → leading teams → orchestrating intelligence."
+  line: "From building software → designing systems → leading teams → expanding engineering capacity with AI."
